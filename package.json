@@ -5,6 +5,9 @@
   "main": "index.js",
   "author": "Felipe Leão",
   "license": "MIT",
+  "engines" : { 
+    "node" : "^v18.0.0"
+  },
   "scripts": {
     "start": "npm run webpack-dev-server",
     "webpack": "webpack",
