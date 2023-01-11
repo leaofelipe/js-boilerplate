@@ -5,8 +5,8 @@
   "main": "index.js",
   "author": "Felipe Leão",
   "license": "MIT",
-  "engines" : { 
-    "node" : "^v18.0.0"
+  "engines": {
+    "node": "^v18.0.0"
   },
   "scripts": {
     "start": "npm run webpack-dev-server",
@@ -18,7 +18,7 @@
     "@babel/eslint-parser": "^7.17.0",
     "@babel/preset-env": "^7.16.11",
     "babel-jest": "^27.5.1",
-    "babel-loader": "^8.2.4",
+    "babel-loader": "^9.1.2",
     "eslint": "^8.13.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.0.0",

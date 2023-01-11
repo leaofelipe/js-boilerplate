@@ -7,6 +7,17 @@ module.exports = ({ mode = 'development' }) => ({
     path: __dirname + '/public',
     filename: 'bundle.js'
   },
+  module: {
+    rules: [
+      {
+        test: /\.js?$/,
+        exclude: /node_modules/,
+        use: {
+          loader: 'babel-loader'
+        }
+      }
+    ]
+  },
   devServer: {
     static: {
       directory: path.join(__dirname, 'public'),
